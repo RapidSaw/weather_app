@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <input type="text" id="inputCity">
+            <div id="town"></div>
+            <div class="wind"><img src="" alt=""></div>
+        </div>
+        <div class="main-wrapper">
+            <div class="main-info">
+                <div class="date"></div>
+                <div class="watch"></div>
+                <div>
+                    <div class="humid-pressure">
+                        <p id="humidity"></p>
+                        <p id="pressure"></p>
+                    </div>
+                    <div class="dur-of-day">
+                        <!-- <p>Duration of day: </p> -->
+                    </div>
+                    <div class="set-rise">
+                        <div class="sunrise"></div>
+                        <div class="sunset"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-info">
+                <div class="weather-image"></div>
+                <div>
+                    <div class="temp-wrapper">
+                        <div class="temp"></div>
+                        <div>
+                            <p class="minTemp"></p>
+                            <p class="maxTemp"></p>
+                        </div>
+                    </div>
+                    <p class="feels-like"><span id="feels-like"></span></p>
+                    <div class="description"></div>
+                </div>
+            </div>
+        </div>
+        <div class="days">
+            <div class="days-info">
+                <div class="day"></div>
+                <img class="img"></img>
+                <div class="day-temp"></div>
+            </div>
+            <div class="days-info">
+                <div class="day"></div>
+                <img class="img"></img>
+                <div class="day-temp"></div>
+            </div>
+            <div class="days-info">
+                <div class="day"></div>
+                <img class="img"></img>
+                <div class="day-temp"></div>
+            </div>
+            <div class="days-info">
+                <div class="day"></div>
+                <img class="img"></img>
+                <div class="day-temp"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <!-- <div>UV index:5</div> -->
+            <div class="updated"></div>
+        </div>
+        <script src="js/watch.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
